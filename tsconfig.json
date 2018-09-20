@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "declaration": true,
+    "outFile": "./dist/tuna-cli.js",
+    "strict": true,
+    "module": "none",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./dist",
+    "./node_modules"
+  ]
+}
